@@ -1,0 +1,12 @@
+//META{"name":"straWberry","description":"straw berries¿ <div class='theme-desc'></div>","author":"Kiwiz","version":"<span class='theme-version'></span>"}*///* IMPORT CSS FROM GITHUB */
+@import url("https://rawgit.com/Kiwez/themes/master/straWberry/strawberry.css");
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+---------------------------------------------------------------------------------------------------------------------------------------------
+*/
+:root {
+	--primary-color: #2C2C2D;
+	--secondary-color: #58585A;
+	--accent-color: #9ac16e;
+}
