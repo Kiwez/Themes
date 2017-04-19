@@ -8,7 +8,8 @@ IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS T
 ---------------------------------------------------------------------------------------------------------------------------------------------
 */
 :root {
-	--primary-color: #2C2C2D;
-	--secondary-color: #58585A;
+	--first-color: #2C2C2D;
+	--second-color: #58585A;
+	--third-color: #1E1E1F;
 	--accent-color: #9ac16e;
 }
