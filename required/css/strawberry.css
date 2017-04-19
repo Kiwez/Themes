@@ -250,6 +250,7 @@ background-color:#535559;}
 }
 
 .guild:hover:after:first-child  {
+	content: "";
 	display: none;
 }
 
