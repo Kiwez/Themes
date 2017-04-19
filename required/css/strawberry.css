@@ -249,7 +249,11 @@ background-color:#535559;}
 	background: #ffffff;
 }
 
-.guild:hover:after:first-child {
+.guild:hover:after:first-child  {
+	display: none;
+}
+
+.guild:hover:after {
 	content: "";
 	height: 63px;
 	width: 63px;
