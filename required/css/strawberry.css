@@ -249,22 +249,6 @@ background-color:#535559;}
 	background: #ffffff;
 }
 
-.guild:first-child:hover:after  {
-	content: "";
-	display: none;
-}
-
-.guild:hover:after {
-	content: "";
-	height: 63px;
-	width: 63px;
-	border-radius: 50%;
-	background: #1c1e22;
-	margin-top: -57px;
-	margin-left: -6px;
-	display: block;
-}
-
 .guilds-wrapper .guilds .guild .guild-inner {
 	border-radius: 50%!important;
 }
