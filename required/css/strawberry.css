@@ -249,7 +249,7 @@ background-color:#535559;}
 	background: #ffffff;
 }
 
-.guild:hover:after:first-child  {
+.guild:first-child:hover:after  {
 	content: "";
 	display: none;
 }
