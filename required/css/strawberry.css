@@ -1,8 +1,20 @@
 :root {
-	--version-content: "1.25";
+	--version-content: "Version 1.35";
 }
 
 @import url('https://fonts.googleapis.com/css?family=Ranga');	
+
+@-webkit-keyframes tooltop {
+	0%		{margin-top: -22px;transform: scale(0);}
+	50%		{margin-top: -15px;transform: scale(0.5);}
+	100%	{margin-top: -8px;transform: scale(1);}
+}
+
+@-webkit-keyframes toolbottom {
+	0%		{margin-top: 22px;transform: scale(0);}
+	50%		{margin-top: 15px;transform: scale(0.5);}
+	100%	{margin-top: 8px;transform: scale(1);}
+}
 
 .scroller-wrap .scroller::-webkit-scrollbar {
     width: 13px;
@@ -33,8 +45,18 @@
     background-image: url() !important;
 }
 
+.tooltip.tooltip-top {
+	animation: tooltop .05s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
+.tooltip.tooltip-bottom {
+	animation: toolbottom .08s ease-in-out;
+	animation-fill-mode: forwards;
+}
+
 .guild-header header {
-	background-color: var(--first-color);
+	background-color: #1E1E1F/*var(--first-color)*/;
 }
 /**/
 .header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMuMDA2Mjg2NjIgMjJjMSAwIDEuNzE0Mjg1NzItLjQwMTk1MzEgMS45OTk5OTk5OC0xLjAwNDg4MjhoLTMuOTk5OTk5OThjLjI4NTcxNDMuNjAyOTI5NyAxIDEuMDA0ODgyOCAyIDEuMDA0ODgyOHptNi45ODA1Mjk3OC0zLjk2MzQzOTlWMTBjMC0yLjY0LTIuMzAyODY2OC00Ljk3NTAzNjYyLTUuMDEwNTU5MDgtNC45NzUwMzY2MiAwLS43Mi0uMzQ0MDU1MTctMS4wMjk4NDYyLTEuOTczMTE0LTEuMDI5ODQ2Mi0xLjYyOTA1ODg1IDAtMS45NjU4NTA4NC4zMDk4NDYyLTEuOTY1ODUwODQgMS4wMjk4NDYyQzguMzI5NjAwMTggNS4wMjQ5NjMzOCA1Ljk5NTQ4MzQgNy4zNiA1Ljk5NTQ4MzQgMTB2OC4wMzY1NjAxaC0uOTg5MTk2Nzh2MS45NTE0MTZIMjF2LTEuOTUxNDE2aC0xLjAxMzE4MzZ6TTE4IDE4SDh2LTcuN0M4IDguNDMgOS40NDQ0NDQ0NCA3IDExLjMzMzMzMzMzIDdoMy4zMzMzMzMzNEMxNi41NTU1NTU2IDcgMTggOC40MyAxOCAxMC4zVjE4eiIvPgo8L3N2Zz4=");'] {
@@ -58,43 +80,120 @@
 }
 
 .theme-dark .chat .title-wrap {
-	background-color: var(--first-color);
+	background-color: #1E1E1F/*var(--first-color)*/;
 }
 
 .guild-channels {
-	background-color: var(--second-color);
+	background-color: #2C2C2D/*var(--second-color)*/;
 }
 
 .guild-channels .channel-text.selected {
-	background: -webkit-linear-gradient(left,#282b30 100%,#282b30);
-    background: linear-gradient(to right,#282b30 100%,#282b30);
+	background: rgba(30,30,31,0.35);
+}
+
+.guild-channels .channel-text:hover {
+	background: transparent;
+	box-shadow:-1px 2px 4px 1px rgba(30,30,31,0.35);
 }
 
 .scroller-wrap .scroller.guild-channels::-webkit-scrollbar {
     width: 0px;
 }
+/**/
+#voice-connection {
+	background-color: #1E1E1F/*var(--first-color)*/;
+	padding: 8px 0 64px 10px;
+	margin-bottom: -96px;
+	align-items: initial;
+	-webkit-box-align: initial;
+}
+
+#voice-connection .voice-connection-inner {
+	max-width: 166px;
+}
+
+#voice-connection .btn-group {
+	border: 0;
+	border-radius: 0;
+	display: flex;
+	flex-direction: column;
+	transform: translateY(32px);
+}
+
+#voice-connection .btn {
+	background: transparent;
+	box-shadow: inset 0px 0 0;
+	border: 0;
+	padding: 6px 1px;
+}
+
+#voice-connection .btn:after {
+	margin: 0;
+	opacity: 1;
+}
+
+#voice-connection .btn-info:after {
+	
+}
+
+#voice-connection .btn-disconnect:after {
+	
+}
 
 .account {
 	height: 96px;
-	background-color: var(--first-color);
+	background-color: #1E1E1F/*var(--first-color)*/;
 	border-top: 0;
 	padding: 0 0 0 10px;
+	align-items: initial;
+	-webkit-box-align: initial;
+}
+
+.account:after{
+	content:var(--version-content);
+	display: block;
+	width: 122px;
+	height: 16px;
+	position: absolute;
+	bottom: 76px;
+	font-size: 12px;
+	font-weight: bold;
+	align-items: center;
+	-webkit-box-align: center;
+}
+
+.account .account-details {
+	margin-top: 30px;
+}
+
+.account .avatar-small {
+	margin-top: 24px;
+	width: 36px;
+	height: 36px;
+	background-size: 36px 36px;
 }
 
 .account .btn-group {
 	border: 0;
 	border-radius: 0;
 	display: flex;
-	flex-direction: column;}
+	flex-direction: column;
+}
 
 .account .account-details {
-	flex-grow: 1;
+	max-height: 41px;
+	padding: 0 32px 0 10px;
 }
 
 .account .btn {
 	border: 0;
 	box-shadow: inset 0px 0 0;
 	background: transparent;
+	padding: 6px 1px;
+}
+
+.account .btn:after {
+	margin: 0;
 }
 
 .account .btn-mute:after,
@@ -130,11 +229,11 @@
 }
 
 .theme-dark .chat>.content {
-	background-color: var(--fourth-color);
+	background-color: #373738/*var(--fourth-color)*/;
 }
 
 .theme-dark .messages-wrapper {
-	background-color: var(--third-color);
+	background-color: #3E3E3F/*var(--third-color)*/;
 }
 
 .theme-dark .chat form {
@@ -155,12 +254,16 @@
 }
 
 .theme-dark .channel-members {
-	background-color: var(--second-color);
+	background-color: #2C2C2D/*var(--second-color)*/;
 }
 .channel-members .member {
-	box-shadow:-1px 2px 40px 1px rgba(0,0,0,.2);
+	box-shadow:-1px 2px 4px 1px rgba(0,0,0,.2);
 	margin: 0 5px 5px 18px;
 	padding: 5px 16px;
+}
+
+.theme-dark .channel-members .member:not(.disabled):hover {
+	background: rgba(30,30,31,0.35);
 }
 
 .channel-members .member .avatar-small {
@@ -177,7 +280,7 @@ position:absolute;
 -webkit-box-orient:horizontal;
 flex-direction: row;
 height:125px;
-max-height:29px;
+max-height:25px;
 bottom:0;
 z-index:2;
 overflow:hidden;
