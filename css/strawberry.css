@@ -62,10 +62,6 @@
     color: #fff;
 }
 
-.header-toolbar button span[style*='background-image: url("");'] {
-    background-image: url() !important;
-}
-
 .tooltip.tooltip-top {
 	animation: tooltop .08s ease-in-out;
 	animation-fill-mode: forwards;
@@ -135,7 +131,7 @@
 
 .theme-dark .search-results-wrap .search-header,
 .theme-dark .search-results-wrap {
-	background-color: #2C2C2D/*var(--second-color)*/;
+	background-color: var(--second-color);
 }
 
 .theme-dark .search-results-wrap .search-result .hit {
@@ -147,7 +143,7 @@
 }
 
 .guild-header header {
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 }
 
 .guild-header header:hover {
@@ -192,11 +188,11 @@
 
 .theme-dark .chat .title-wrap,
 .guild-header.popout-open header {
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 }
 
 .guild-channels {
-	background-color: #2C2C2D/*var(--second-color)*/;
+	background-color: var(--second-color);
 }
 
 .guild-channels .channel-text.selected {
@@ -217,7 +213,7 @@
 }
 /**/
 #voice-connection {
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 	padding: 8px 0 64px 10px;
 	margin-bottom: -96px;
 	align-items: initial;
@@ -261,11 +257,11 @@
 }
 /**/
 .private-channels {
-	background-color: #2C2C2D/*var(--second-color)*/;
+	background-color: var(--second-color);
 }
 
 .search-bar {
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 }
 
 .private-channels .channel:hover {
@@ -279,7 +275,7 @@
 
 .account {
 	height: 96px;
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 	border-top: 0;
 	padding: 0 0 0 10px;
 	align-items: initial;
@@ -361,11 +357,11 @@
 }
 
 .theme-dark .chat>.content {
-	background-color: #373738/*var(--fourth-color)*/;
+	background-color: var(--fourth-color);
 }
 
 .theme-dark .messages-wrapper {
-	background-color: #3E3E3F/*var(--third-color)*/;
+	background-color: var(--third-color);
 }
 
 .theme-dark .chat form {
@@ -387,12 +383,12 @@
 }
 /**/
 .theme-dark #friends .friends-header {
-	background-color: #1E1E1F/*var(--first-color)*/;
+	background-color: var(--first-color);
 }
 
 .theme-dark #friends,
 .theme-dark .friends-table {
-	background-color: #3E3E3F/*var(--third-color)*/;
+	background-color: var(--third-color);
 }
 .theme-dark #friends .friends-table .friends-row:hover {
 	background: transparent;
@@ -400,7 +396,7 @@
 }
 
 .theme-dark .channel-members {
-	background-color: #2C2C2D/*var(--second-color)*/;
+	background-color: var(--second-color);
 }
 .channel-members .member {
 	box-shadow:-1px 2px 4px 1px rgba(0,0,0,.2);
