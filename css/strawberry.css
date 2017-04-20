@@ -263,8 +263,8 @@
 	margin: 20px 0 30px;
 }
 
-.typing {
-	background: transparent;
+.theme-dark .chat form .typing {
+	background-color: transparent;
 	bottom: initial;
 	top: 0px;
 }
