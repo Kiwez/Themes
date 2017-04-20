@@ -1,6 +1,5 @@
 :root {
 	--version-content: "V1.4";
-	--version-title: "Version 1.4";
 }
 	
 @-webkit-keyframes tooltop {
@@ -189,22 +188,6 @@
 	transform: translateX(-10px);
 	color: #1e1e1f;
 	padding: 6px 0 0 0;
-}
-
-.header-toolbar:hover:before {
-	content: var(--version-title);
-	position: absolute;
-	background-color: #7289da;
-	box-shadow: 0 2px 4px 1px rgba(0,0,0,.1);
-	border-radius: 3px;
-	font-weight: 600;
-	font-size: 12px;
-	color: #fff;
-	padding: 5px 10px;
-	z-index: 1002;
-	max-width: 160px;
-	box-sizing: border-box;
-	word-wrap: break-word;
 }
 
 .theme-dark .chat .title-wrap,
