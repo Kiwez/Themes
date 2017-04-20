@@ -264,6 +264,7 @@
 }
 
 .typing {
+	background: transparent;
 	bottom: initial;
 	top: 0px;
 }
