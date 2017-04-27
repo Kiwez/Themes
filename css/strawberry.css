@@ -225,7 +225,7 @@
 	position: absolute;
 	height: 32px;
 	width: 32px;
-	left: 264px;
+	left: 194px;
 	transform: translateY(-4px);
 	max-width: 256px;
 	max-height: 256px;
@@ -283,11 +283,11 @@
 }
 
 .account .account-details {
-	margin-top: 32px;
+	margin-top: 22px;
 }
 
 .account .avatar-small {
-	margin-top: 22px;
+	margin-top: 12px;
 	width: 48px;
 	height: 48px;
 	background-size: 48px 48px;
