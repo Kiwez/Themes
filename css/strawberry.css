@@ -1,7 +1,6 @@
 :root {
 	--version-content: "V1.7";
 }
-
 @-webkit-keyframes tooltop {
 	0%	{margin-top: -22px;transform: scale(0);}
 	50%	{margin-top: -15px;transform: scale(0.5);}
