@@ -389,6 +389,30 @@ span:not(.channel-name):not(.spinner-item){backface-visibility: hidden;}
 	opacity: 0.6;
 }
 
+.deprecated-settings-modal .settings-inner{background-color:#2C2C2D;}
+
+.deprecated-settings-modal .settings-actions{background-color:#2C2C2D;}
+
+.form .control-group input{background-color:#2C2C2D;}
+
+.form .control-group input[type=text]{border-bottom:1px solid #23a96e;color:White;}
+
+.form .btn-default{background-color:#2C2C2D;}
+
+.modal-content .form-inner p{color:White;}
+
+.modal-content{background:transparent;}
+
+#instant-invite-modal .form-header header,
+#instant-invite-modal .blurb,
+#instant-invite-modal .expire-text{color:White;}
+
+.instant-invite-modal{background:transparent;}
+
+.form .form-inner{background-color:#3E3E3F;}
+
+#instant-invite-modal .form-actions{background:#2C2C2D;}
+
 #rtc-connection {
 	background-color: var(--first-color);
 	padding: 8px 0 64px 10px;
