@@ -892,3 +892,30 @@ background-color:#535559;}
 	margin: 0 10px;
 	flex-direction: row;
 }
+.region-select-modal{
+background: #2C2C2D;}
+.region-select-modal .region-select-modal-option{
+background-color:#3E3E3F;border:2px solid #373738;}
+.form .form-inner{
+background-color:transparent;}
+.modal-content{
+background-color:#2C2C2D;}
+.webhook-modal,.webhook-modal-footer{
+background-color:#2C2C2D;}
+.Select-option.is-focused,.Select-option,.alert.form .form-inner h4,.theme-light .ui-form-title.h5,.theme-light .ui-select .Select-value-label{
+color:#fff;}
+
+.theme-light .ui-text-input .input{
+color: #fff;
+background-color: rgba(243,247,253,0.2);
+border-color: rgba(195,195,195,0.3);}
+
+.theme-light .ui-select .Select-control{
+color: #fff;
+background-color: rgba(243,247,253,0.2);
+border: 1px solid rgba(195,195,195,0.3);}
+
+.theme-light .ui-select .Select-option.is-focused{
+background: hsla(240,6%,97%,0.5);color#fff;}
+.theme-light .ui-select .Select-option.is-selected{
+color:#000;}
