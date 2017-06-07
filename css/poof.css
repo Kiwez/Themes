@@ -1,6 +1,8 @@
 
-.guild-channels .channel-voice.audio a,.guild-channels .channel-text,.guild-channels .channel-text a,.guild-channels header span,.channels-wrap .guild-channels-wrapper .guild-header header,.channels-wrap .guild-channels-wrapper .guild-header header span,.channels-wrap .guild-channels-wrapper .guild-header,.guild-channels .channel a,
-button{cursor:url("https://rawgit.com/Kiwez/me/master/required/cursors/link.cur?raw=true"),auto!important;}
+button,.guild-channels .channel-voice.audio a,.guild-channels .channel-text,.guild-channels .channel-text a,.guild-channels header span,.channels-wrap .guild-channels-wrapper .guild-header header,.channels-wrap .guild-channels-wrapper .guild-header header span,.channels-wrap .guild-channels-wrapper .guild-header,.guild-channels .channel a,.theme-dark .message-group .comment .markup .mention,.theme-dark .message-group h2 strong,.chat .content div .messages-wrapper div .messages .message-group .avatar-large,.guilds-wrapper .guilds .guild .guild-inner a,.chat .content .channel-members-wrap .scroller-wrap .channel-members .member,.user-popout .avatar-wrapper .avatar-popout,.account .avatar-small,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon,#user-profile-modal .header .additional-actions-icon,#user-profile-modal .guilds .guild,#user-profile-modal .header .header-info .profile-badge,.user-popout .avatar-wrapper,.popout-menu .popout-menu-item,#rtc-connection .rtc-connection-channel
+{cursor:url("https://rawgit.com/Kiwez/me/master/required/cursors/link.cur?raw=true"),auto!important;}
+
+
 input,textarea{cursor:url("https://rawgit.com/Kiwez/me/master/required/cursors/text.cur?raw=true"),auto;!important}
 
 .guild-channels .channel.sorting,
