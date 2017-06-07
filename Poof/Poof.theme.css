@@ -1,0 +1,13 @@
+//META{"name":"Poof","description":"pewf pewf","author":"Kiwiz","version":"6.6.6"}*//
+
+@import url("https://rawgit.com/Kiwez/Themes/master/css/poof.css");
+/*
+Configuration Settings Below
+*/
+:root{
+	--guild-bar:4;
+	--channels:2;
+	--chat:6;
+	--friends:8;
+	--buttonsfix:0;/*If the buttons in the top right are overlapped, repleace 0 with 1*/
+}
