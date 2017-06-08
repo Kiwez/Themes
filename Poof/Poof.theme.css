@@ -1,10 +1,17 @@
-//META{"name":"Poof","description":"pewf pewf","author":"Kiwiz","version":"6.6.6"}*//
+//META{"name":"Poof","description":"pewf pewf<br>For help and stuff with themes and things, head to 'kiwez.github.io/works/support'","author":"Kiwiz","version":"6.6.6"}*//
 
 @import url("https://rawgit.com/Kiwez/files/master/themefiles/poof/poof.css");
-/*
-Configuration Settings Below
-*/
+
+/*Configuration Settings*/
 :root{
+	/*Color Config*/
+	--primary:#1E1E1F;
+	--secondary:#2C2C2D;
+	--sub:#3E3E3F;
+	--sub-related:#373738;
+	--accent:#3CB371;
+	
+	/*Positioning Config*/
 	--guild-bar:4;
 	--channels:2;
 	--chat:6;
