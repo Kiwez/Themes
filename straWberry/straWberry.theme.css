@@ -1,8 +1,8 @@
-//META{"name":"straWberry","description":"straw berries?","author":"Kiwiz","version":"<span class='theme-version'></span>"}*//
+//META{"name":"straWberry","description":"straw berries?","author":"Kiwiz","version":"6.6.6"}*//
 
-@import url("https://rawgit.com/Kiwez/Themes/master/css/strawberry.css");
+@import url("https://rawgit.com/Kiwez/files/master/themefiles/strawberry/strawberry.css");
 
-:root {
+:root{
 	--first-color: #1E1E1F;
 	--second-color: #2C2C2D;
 	--third-color: #3E3E3F;
