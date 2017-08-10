@@ -3,6 +3,7 @@
 @import url("https://rawgit.com/Kiwez/files/master/themefiles/strawberry/strawberry.css");
 
 :root{
+	--background-image: none;
 	--first-color: #1E1E1F;
 	--second-color: #2C2C2D;
 	--third-color: #3E3E3F;
