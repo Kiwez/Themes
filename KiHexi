@@ -1,0 +1,5 @@
+//META{"name":"KiHexi","description":"My more-ish aesthetic-ish than normal theme I guess (question mark) ?","author":"KiwiNotKiwi / Kiwiz","version":"3.2.1"}*//
+
+@import url("https://rawgit.com/Kiwez/files/master/kihexi/kihexi.css");
+
+/*I'll probably add a section eventually for custom css or something to configure this in the custom css section. idk though as this is just for fun really*/
