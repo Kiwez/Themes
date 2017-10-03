@@ -1,0 +1,16 @@
+//META{"name":"straWberry","description":"straw berries?","author":"KiwiNotKiwi","version":"6.6.6"}*//
+
+@import url("https://rawgit.com/Kiwez/files/master/themefiles/strawberry/strawberry.css");
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/*	Do not touch the code above unless you know what you are doing	*/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/*	Below is where you can customize the theme more so to your liking	*/
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+:root{
+	--background-image: none;/*Make sure whatever link you put here starts with https or it wont work*/
+	--first-color: #1E1E1F;
+	--second-color: #2C2C2D;
+	--third-color: #3E3E3F;
+	--fourth-color: #373738;
+	--accent-color: #275726;
+}
